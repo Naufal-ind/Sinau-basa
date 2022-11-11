@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Bahasa Jawa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d39a0b174d.js"></script>
+    <script src="https:code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+<!--Navigasi-->
+<nav>
+    <a href="index.html"><img src="images/logo2.png" alt=""></a>
+    <div class="navigation">
+        <ul>
+            <i class="fas fa-times" id="menu-close"></i>
+            <li><a href="index.html" >Beranda</a></li>
+            <li><a href="blog.html">Materi</a></li>
+            <li><a href="about.html" class="active">Tentang</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Mapel </a>
+                <div class="dropdown-content">
+                    <a href="#">Matematika</a>
+                    <a href="#">Basis Data</a>
+                    <a href="#">PWPB</a>
+                    <a href="#">PKK</a>
+                    <a href="#">PBO</a>
+                    <a href="#">Bahasa Indonesia</a>
+                    <a href="#">Bahasa Inggris</a>
+                    <a href="#">Bahasa Jepang</a>
+                    <a href="#">Agama</a>
+                    <a href="#">PPKN</a>
+                </div>
+            </li>
+            
+        </ul>
+        <img src="images/menu.png" alt="" id="menu-btn">
+    </div>
+</nav>
+
+<!--Beranda-->
+
+<section id="about-home">
+<h2>Tentang Website "Sinau Basa"/</h2>
+
+</section>
+
+<!--Prodile-->
+<section id="about-container">
+<div class="about-img">
+<img src="images/e.png" alt="">
+</div>
+
+<div class="about-text">
+<h2>Latar Belakang Website "Sinau Basa"</h2>
+<p>Sinau Basa Adalah Website Yang Dikerjakan Untuk Menyelesaikan Tugas Akhir Mata Pelajaran "Pemrograman Web dan Perangkat Bergerak", Website ini berisi Tentang Materi dari Mata Pelajaran Bahasa Jawa Kelas 12, Website Ini Dikerjakan Oleh Kami Bertiga</p>
+
+    <h3>1. Firhan Firmansyah</h3>
+    <h3>2. Muhammad Naufal Indiarto</h3>
+    <h3>3. Risqy Septian Wulandari</h3>
+<br>
+    <h2>Tujuan Website "Sinau Basa"</h2>
+<p>Kami Harapkan Dengan Adanya Website ini, Dapat Memudahkan Siswa dan Siswi Kelas 12 Untuk Memahami Materi Mata Pelajaran Bahasa Jawa, Yang Sebelumnya Tidak Mereka Pahami Saat Di Sekolah</p>
+</div>
+</section>
+
+<!--Materi-->
+<section id="features">
+    <h1>Bahasa Jawa</h1>
+    <p>Apa Saja Sih Yang Akan Kita Pelajari?
+
+    </p>
+
+    <div class="fea-base">
+        <div class="fea-box">
+            <i class="fa-sharp fa-solid fa-masks-theater"></i>
+            <h3>Kesenian Daerah</h3>
+            <p>Di Pulau Jawa Memiliki Banyak Sekali Kesenian Daerah, Seperti Pakaian Adat, Alat Musik Tradisional, Tembang-Tembang, Dan Lain Sebagainya</p>
+        </div>
+
+        <div class="fea-box">
+            <i class="fa-solid fa-scroll"></i>
+            <h3>Aksara Jawa</h3>
+            <p>Di Pulau Jawa Memiliki Banyak Sekali Kesenian Daerah, Seperti Pakaian Adat, Alat Musik Tradisional, Tembang-Tembang, Dan Lain Sebagainya</p>
+        </div>
+
+        <div class="fea-box">
+            <i class="fa-solid fa-radio"></i>
+            <h3>Tata Adat Jawa</h3>
+            <p>Di Pulau Jawa Memiliki Banyak Sekali Kesenian Daerah, Seperti Pakaian Adat, Alat Musik Tradisional, Tembang-Tembang, Dan Lain Sebagainya</p>
+        </div>
+    </div>
+
+
+    
+</section>
+
+<!--Pembelajaran-->
+<br>
+<br>
+<br>
+
+
+<footer>
+<div class="footer-col">
+    <h3>Pintasan</h3>
+    <li>Beranda</li>
+    <li>Materi</li>
+    <li>Tentang</li>
+    <li>Kontak</li>
+</div>
+
+<div class="footer-col">
+    <h3>Mapel Lainnya</h3>
+    <li>Matematika</li>
+    <li>Basis Data</li>
+    <li>PBO</li>
+    <li>PWPB</li>
+    
+</div>
+
+<div class="footer-col">
+
+    <li>PKK</li>
+    <li>Bahasa Indonesia</li>
+    <li>Bahasa Inggris</li>
+    <li>Bahasa Jepang</li>
+    <li>PPKN</li>
+    <li>Agama</li>
+</div>
+
+<div class="footer-col">
+<h3>Pencarian</h3>
+<div class="subscribe">
+    <input type="text" placeholder="Cari">
+    <a href="#" class="yellow">Cari</a>
+</div>
+
+</div>
+
+<div class="copyright">
+    <p>Copyright &copy;2022 All rights reserved | DIbuat Oleh Firhan Firmansyah</p>
+    <div class="pro-links">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-whatsapp"></i>
+    </div>
+</div>
+    
+</footer>
+
+
+<script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+        });
+
+$('#menu-close').click(function(){
+$('nav .navigation ul').removeClass('active')
+});
+
+</script>
+</body>
+</html>)
