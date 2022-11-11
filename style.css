@@ -829,6 +829,10 @@ margin-right: 8px;
 
 }
 
+footer .footer-col a {
+    text-decoration: none;
+}
+
 #contact .form .form-col input,
 #contact .form .form-col textarea{
     width: 100%;
