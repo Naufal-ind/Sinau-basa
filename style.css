@@ -1082,6 +1082,11 @@ object-fit: cover;
 }
 
 
+#blog-container div .imge{
+    width: 100%;
+    height: 50vh;
+}
+
 }
 
 @media (max-width:475px){
